@@ -19,3 +19,5 @@
     #define RGBLIGHT_SAT_STEP 17
     #define RGBLIGHT_VAL_STEP 17
 #endif
+
+uint16_t get_quick_tap_term(uint16_t keycode, keyrecord_t *record);
