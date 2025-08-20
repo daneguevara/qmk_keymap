@@ -1,5 +1,13 @@
 name: Build QMK firmware
-on: [push, workflow_dispatch]
+on:
+  - push:
+      paths:
+        - config.h
+        - source.h
+        - rules.mk
+        - rainer.json
+
+  - workflow_dispatch
 
 jobs:
   build:
