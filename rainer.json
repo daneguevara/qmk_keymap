@@ -49,8 +49,8 @@
       "KC_BSLS",
       "KC_LALT",
       "LGUI_T(KC_ENT)",
-      "ANY(LT1(KC_TAB))",
-      "ANY(LT2(KC_BSPACE))",
+      "LT(1,KC_TAB))",
+      "LT(2,KC_BSPACE))",
       "KC_SPC",
       "MO(4)"
     ],
